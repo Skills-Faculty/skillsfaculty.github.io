@@ -1,0 +1,94 @@
+---
+title: Skills Faculty | Welcome
+layout: default
+---
+
+<main>
+    <header>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h1>
+                                SkillsFaculty.Tech
+                            </h1>
+                        </li>
+                        <li>
+                            <p>
+                                This is a space where industry players (developers/ engineers) train or tutor newbies.
+                                Core
+                                values; to train / teach newbies relevant and employable skills that is used and
+                                required on
+                                the job market and provide some sort of mentorship.
+                            </p>
+                        </li>
+                        <li>
+                            <button class="btn btn-dark btn-lg">Check out programmes</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h2>How it works?</h2>
+                        </li>
+                        <li>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-md">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-md-10">
+                    <div class="row">
+                        <h2 class="text-center">Programmes</h2>
+                        {% for programme in site.data.programmes %}
+                        <div class="col-md-4 gx-5">
+                            <div class="card my-3 p-4">
+                                <ul class="list-unstyled">
+                                    <li></li>
+                                    <li>
+                                        <h4>{{programme.name}}</h4>
+                                    </li>
+                                    <li>
+                                        <p>{{programme.description}}</p>
+                                    </li>
+                                    <li>
+                                        <button class="btn btn-dark btn-md">
+                                            Read more
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+    </section>
+</main>

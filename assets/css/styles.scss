@@ -1,3 +1,69 @@
+//Author: Maxwell Cofie
+//Date: 3rd July 2022
+//Purpose :
+
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css";
+
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css";
+
+//Import Font
+//Google Fonts: Code Pro
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700;800&display=swap');
+
+//
+$defaultBorderRadius: 1.2rem;
+
+//Colors
+$primaryColor: #0b4de1;
+
+
 body {
-  background-color: white;
+  font-family: 'Baloo 2', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 2.8rem;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+//Header
+header {
+  width: 100%;
+  padding: 200px 0;
+  background-color: $primaryColor;
+  border-radius: 0 0 0 15rem;
+  color: #FFF;
+  float: left;
+}
+
+
+//Footer
+footer {
+  width: 100%;
+  padding: 50px 0;
+  float: left;
+  color: #FFF;
+  background-color: #111111;
+  border-radius: 0 15rem 0 0;
+}
+
+section {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #FFF;
+  float: left;
+}
+
+//buttons
+.btn {
+  border-radius: $defaultBorderRadius;
+}
+
+//card
+.card {
+  border-radius: 3rem;
 }
