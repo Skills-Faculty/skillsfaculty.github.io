@@ -16,16 +16,20 @@ p {
 
 header {
   width: 100%;
-  padding: 200px 0;
+  padding: 50px 0;
   background-color: #0b4de1;
   border-radius: 0 0 0 15rem;
   color: #FFF;
   float: left;
+  box-shadow: -8px -1px 8px 0px #cfcfcf;
+}
+header h1 {
+  font-size: 3em;
 }
 
 footer {
   width: 100%;
-  padding: 50px 0;
+  padding: 150px 0;
   float: left;
   color: #FFF;
   background-color: #111111;
@@ -43,8 +47,15 @@ section {
   border-radius: 1.2rem;
 }
 
+.grey-patch {
+  background-color: #f8f8f8;
+  border-radius: 0 15rem 0 15rem;
+}
+
 .card {
   border-radius: 3rem;
+  border: 0;
+  box-shadow: -1px 5px 13px 0px #cfcfcf;
 }
 
 /*# sourceMappingURL=styles.css.map */

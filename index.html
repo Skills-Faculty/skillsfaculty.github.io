@@ -8,27 +8,27 @@ layout: default
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled py-5 my-5">
                         <li>
                             <h1>
                                 SkillsFaculty.Tech
                             </h1>
                         </li>
-                        <li>
-                            <p>
-                                This is a space where industry players (developers/ engineers) train or tutor newbies.
-                                Core
-                                values; to train / teach newbies relevant and employable skills that is used and
-                                required on
-                                the job market and provide some sort of mentorship.
+                        <li class="my-4">
+                            <p style="font-size: 1.5rem;">
+                                On a mission to connect industry players (developers/ engineers) to newbies to
+                                equip them with relevant and employable skills that are used &
+                                required on the job market and provide some sort of mentorship.
                             </p>
                         </li>
                         <li>
-                            <button class="btn btn-dark btn-lg">Check out programmes</button>
+                            <button class="btn btn-dark btn-lg px-5">Check out programmes</button>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6 text-center">
+                    <img src="assets/imgs/winner.svg" class="img-fluid" style="height: 500px;">
+                </div>
             </div>
         </div>
     </header>
@@ -38,7 +38,7 @@ layout: default
                 <div class="col-md-6">
                     <ul class="list-unstyled">
                         <li>
-                            <h2>How it works?</h2>
+                            <h1>How it works?</h1>
                         </li>
                         <li>
                             <p>
@@ -56,12 +56,12 @@ layout: default
         </div>
     </section>
 
-    <section>
+    <section class="grey-patch">
         <div class="container-md">
             <div class="row gx-5 justify-content-center">
                 <div class="col-md-10">
                     <div class="row">
-                        <h2 class="text-center">Programmes</h2>
+                        <h1 class="text-center">Programmes</h1>
                         {% for programme in site.data.programmes %}
                         <div class="col-md-4 gx-5">
                             <div class="card my-3 p-4">
@@ -82,13 +82,59 @@ layout: default
                             </div>
                         </div>
                         {% endfor %}
+                        <div class="col-md-4 gx-5">
+                            <div class="card my-3 p-4 text-center bg-black text-white">
+                                <ul class="list-unstyled">
+                                    <li></li>
+                                    <li>
+                                        <h4>Register Now</h4>
+                                    </li>
+                                    <li>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua</p>
+                                    </li>
+                                    <li>
+                                        <button class="btn btn-dark btn-md px-3">
+                                            Read more
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <section>
-
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h1>Join the community</h1>
+                        </li>
+                        <li>
+                            <img src="assets/imgs/team.svg" class="img-fluid" style="height: 450px;">
+                        </li>
+                        <li>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                        </li>
+                        <li>
+                            <button class="btn btn-dark btn-lg px-5">
+                                Join now
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 </main>

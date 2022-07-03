@@ -15,6 +15,7 @@ $defaultBorderRadius: 1.2rem;
 
 //Colors
 $primaryColor: #0b4de1;
+$appGrey: #f8f8f8;
 
 
 body {
@@ -33,18 +34,25 @@ p {
 //Header
 header {
   width: 100%;
-  padding: 200px 0;
+  padding: 50px 0;
   background-color: $primaryColor;
   border-radius: 0 0 0 15rem;
   color: #FFF;
   float: left;
+  box-shadow: -8px -1px 8px 0px #cfcfcf;
+
+  & h1 {
+    font-size: 3em;
+  }
 }
+
+//Grey Patch
 
 
 //Footer
 footer {
   width: 100%;
-  padding: 50px 0;
+  padding: 150px 0;
   float: left;
   color: #FFF;
   background-color: #111111;
@@ -63,7 +71,14 @@ section {
   border-radius: $defaultBorderRadius;
 }
 
+.grey-patch {
+  background-color: $appGrey;
+  border-radius: 0 15rem 0 15rem;
+}
+
 //card
 .card {
   border-radius: 3rem;
+  border: 0;
+  box-shadow: -1px 5px 13px 0px #cfcfcf;
 }
