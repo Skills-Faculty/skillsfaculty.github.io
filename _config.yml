@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Core values; to train / teach newbies relevant and employable 
   skills that is used and required on the job market 
   and provide some sort of mentorship.
-baseurl: "skillsfaculty.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/skillsfaculty.github.io" # the subpath of your site, e.g. /blog
 url: "https://skills-faculty.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
